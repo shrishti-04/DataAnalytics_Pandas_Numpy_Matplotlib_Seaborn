@@ -191,14 +191,14 @@ series_8.tail(2)
 # Use Squeeze to convert it into a Pandas Series (One-dimensional)
 # Notice that no foramtting exists when a Series is plotted
 
-sp500 = pd.read_csv('\Datasets\S_P500_Prices.csv', squeeze=True)
+sp500 = pd.read_csv('C:\Users\Muskaan\OneDrive\Documents\DataAnalytics_Pandas_Numpy_Matplotlib_Seaborn\Datasets\S_P500_Prices.csv', squeeze=True)
 sp500
 
 """**MINI CHALLENGE #6:**
 - **Set Squeeze = False and rerun the cell, what do you notice? Use Type to compare both outputs**
 """
 
-sp500_2 = pd.read_csv('\Datasets\S_P500_Prices.csv', squeeze=False)
+sp500_2 = pd.read_csv('C:\Users\Muskaan\OneDrive\Documents\DataAnalytics_Pandas_Numpy_Matplotlib_Seaborn\Datasets\S_P500_Prices.csv', squeeze=False)
 sp500_2
 
 type(sp500)
@@ -211,7 +211,7 @@ type(sp500_2)
 # You don't have to play with pandas methods and directly leverage Python functions
 # Check Python built-in functions here: https://docs.python.org/3/library/functions.html
 
-sp500 = pd.read_csv('\Datasets\S_P500_Prices.csv', squeeze=True)
+sp500 = pd.read_csv('C:\Users\Muskaan\OneDrive\Documents\DataAnalytics_Pandas_Numpy_Matplotlib_Seaborn\Datasets\S_P500_Prices.csv', squeeze=True)
 sp500
 
 # Obtain the Data Type of the Pandas Series
@@ -254,7 +254,7 @@ set(my_series)
 """# 8. SORTING PANDAS SERIES"""
 
 # Let's import CSV data as follows:
-sp500_3 = pd.read_csv('\Datasets\S_P500_Prices.csv', squeeze=True)
+sp500_3 = pd.read_csv('C:\Users\Muskaan\OneDrive\Documents\DataAnalytics_Pandas_Numpy_Matplotlib_Seaborn\Datasets\S_P500_Prices.csv', squeeze=True)
 sp500_3
 
 # You can sort the values in the dataframe as follows
@@ -285,7 +285,7 @@ sp500_3
 """# 9. PERFORM MATH OPERATIONS ON PANDAS SERIES"""
 
 # Let's import CSV data as follows:
-sp500_4 = pd.read_csv('\Datasets\S_P500_Prices.csv', squeeze=True)
+sp500_4 = pd.read_csv('C:\Users\Muskaan\OneDrive\Documents\DataAnalytics_Pandas_Numpy_Matplotlib_Seaborn\Datasets\S_P500_Prices.csv', squeeze=True)
 sp500_4
 
 # Apply Sum Method on Pandas Series
@@ -314,7 +314,7 @@ sp500_4.mean()
 """# 10. CHECK IF A GIVEN ELEMENT EXISTS IN A PANDAS SERIES"""
 
 # Let's import CSV data as follows:
-sp500_5 = pd.read_csv('\Datasets\S_P500_Prices.csv', squeeze=True)
+sp500_5 = pd.read_csv('C:\Users\Muskaan\OneDrive\Documents\DataAnalytics_Pandas_Numpy_Matplotlib_Seaborn\Datasets\S_P500_Prices.csv', squeeze=True)
 sp500_5
 
 # Check if a given number exists in a Pandas Series values
@@ -344,7 +344,7 @@ sp500_5
 
 # Let's import CSV data as follows:
 
-sp500_6 = pd.read_csv('\Datasets\S_P500_Prices.csv', squeeze=True)
+sp500_6 = pd.read_csv('C:\Users\Muskaan\OneDrive\Documents\DataAnalytics_Pandas_Numpy_Matplotlib_Seaborn\Datasets\S_P500_Prices.csv', squeeze=True)
 sp500_6
 
 # Obtain the first element in a Pandas Series
@@ -366,7 +366,7 @@ sp500_6[4]
 """# 12. SLICING: OBTAIN MULTIPLE ELEMENTS FROM PANDAS SERIES"""
 
 # Let's import CSV data as follows:
-sp500 = pd.read_csv('\Datasets\S_P500_Prices.csv', squeeze=True)
+sp500 = pd.read_csv('C:\Users\Muskaan\OneDrive\Documents\DataAnalytics_Pandas_Numpy_Matplotlib_Seaborn\Datasets\S_P500_Prices.csv', squeeze=True)
 sp500
 
 # Slice elements from a Pandas Series
